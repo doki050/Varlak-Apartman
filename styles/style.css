@@ -10,6 +10,7 @@
   box-sizing: inherit;
 }
 
+
 html {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 10px;
@@ -281,4 +282,12 @@ iframe {
     height: auto;
     margin-left: 130px;
     margin-top: 12px;
+}
+
+@media screen and (max-width: 600px) {  
+    iframe {
+        border: 5px solid gray;
+        width: 100%;
+        margin: auto;
+    }
 }
